@@ -2,7 +2,7 @@
 class Student {
     private string $name;
     private array $courses = [];
-    private float $courseFee = 1450; 
+    private float $courseFee = 1300; 
 
     public function __construct(string $name) {
         $this->name = $name;
