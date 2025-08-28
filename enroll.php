@@ -36,13 +36,13 @@ class Student {
     }
 }
 
-$student1 = new Student("Raine Louise J. Caldo");
+$student1 = new Student("Lorah Jyn I. Hernandez");
 
+$student1->addCourse("Software Engineering 2 LAB");
+$student1->addCourse("CS Thesis Writing 1");
 $student1->addCourse("Data Analysis for Computer Science");
-$student1->addCourse("Professional Elective 2");
-$student1->addCourse("Software Engineering 2 LEC");
 
-$student1->deleteCourse("Software Engineering 2 LEC");
+$student1->deleteCourse("Software Engineering 2 LAB");
 
 $student1->listCourses();
 
