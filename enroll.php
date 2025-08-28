@@ -42,7 +42,7 @@ $student1->addCourse("Software Engineering 2 LAB");
 $student1->addCourse("CS Thesis Writing 1");
 $student1->addCourse("Data Analysis for Computer Science");
 
-$student1->deleteCourse("Software Engineering 2 LAB");
+$student1->deleteCourse("CS Thesis Writing 1");
 
 $student1->listCourses();
 
